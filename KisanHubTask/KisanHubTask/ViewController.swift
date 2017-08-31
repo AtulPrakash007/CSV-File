@@ -196,6 +196,7 @@ class ViewController: UIViewController {
                             clientData.remove(at: 1)
                             i += 1
                         }
+                        // Can fetch here the current month and start the i value from there
                         for i in 7...11 {
                             let feedArray = [name,value,clientData[0],month[i],"N/A"]
                             finalArray.append(feedArray)
