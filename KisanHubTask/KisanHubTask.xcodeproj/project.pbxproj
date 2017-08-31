@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04585DE81F56BE6600984D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585DE71F56BE6600984D83 /* AppDelegate.swift */; };
+		04585DEA1F56BE6600984D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585DE91F56BE6600984D83 /* ViewController.swift */; };
+		04585DED1F56BE6600984D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04585DEB1F56BE6600984D83 /* Main.storyboard */; };
+		04585DEF1F56BE6600984D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04585DEE1F56BE6600984D83 /* Assets.xcassets */; };
+		04585DF21F56BE6600984D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04585DF01F56BE6600984D83 /* LaunchScreen.storyboard */; };
+		04585DFD1F56BE6700984D83 /* KisanHubTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585DFC1F56BE6700984D83 /* KisanHubTaskTests.swift */; };
+		04585E081F56BE6700984D83 /* KisanHubTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585E071F56BE6700984D83 /* KisanHubTaskUITests.swift */; };
+		04585E1E1F56C13800984D83 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585E1D1F56C13800984D83 /* Reachability.swift */; };
+		04585E201F56C3EC00984D83 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04585E1F1F56C3EC00984D83 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04585DF91F56BE6700984D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04585DDC1F56BE6600984D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04585DE31F56BE6600984D83;
+			remoteInfo = KisanHubTask;
+		};
+		04585E041F56BE6700984D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04585DDC1F56BE6600984D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04585DE31F56BE6600984D83;
+			remoteInfo = KisanHubTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04585DE41F56BE6600984D83 /* KisanHubTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisanHubTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04585DE71F56BE6600984D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04585DE91F56BE6600984D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04585DEC1F56BE6600984D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04585DEE1F56BE6600984D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04585DF11F56BE6600984D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04585DF31F56BE6600984D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04585DF81F56BE6700984D83 /* KisanHubTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04585DFC1F56BE6700984D83 /* KisanHubTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubTaskTests.swift; sourceTree = "<group>"; };
+		04585DFE1F56BE6700984D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04585E031F56BE6700984D83 /* KisanHubTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisanHubTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04585E071F56BE6700984D83 /* KisanHubTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisanHubTaskUITests.swift; sourceTree = "<group>"; };
+		04585E091F56BE6700984D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04585E1D1F56C13800984D83 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		04585E1F1F56C3EC00984D83 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04585DE11F56BE6600984D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04585DF51F56BE6700984D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04585E001F56BE6700984D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04585DDB1F56BE6600984D83 = {
+			isa = PBXGroup;
+			children = (
+				04585DE61F56BE6600984D83 /* KisanHubTask */,
+				04585DFB1F56BE6700984D83 /* KisanHubTaskTests */,
+				04585E061F56BE6700984D83 /* KisanHubTaskUITests */,
+				04585DE51F56BE6600984D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04585DE51F56BE6600984D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04585DE41F56BE6600984D83 /* KisanHubTask.app */,
+				04585DF81F56BE6700984D83 /* KisanHubTaskTests.xctest */,
+				04585E031F56BE6700984D83 /* KisanHubTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04585DE61F56BE6600984D83 /* KisanHubTask */ = {
+			isa = PBXGroup;
+			children = (
+				04585E191F56C12400984D83 /* Model */,
+				04585DE71F56BE6600984D83 /* AppDelegate.swift */,
+				04585DE91F56BE6600984D83 /* ViewController.swift */,
+				04585DEB1F56BE6600984D83 /* Main.storyboard */,
+				04585DEE1F56BE6600984D83 /* Assets.xcassets */,
+				04585DF01F56BE6600984D83 /* LaunchScreen.storyboard */,
+				04585DF31F56BE6600984D83 /* Info.plist */,
+			);
+			path = KisanHubTask;
+			sourceTree = "<group>";
+		};
+		04585DFB1F56BE6700984D83 /* KisanHubTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				04585DFC1F56BE6700984D83 /* KisanHubTaskTests.swift */,
+				04585DFE1F56BE6700984D83 /* Info.plist */,
+			);
+			path = KisanHubTaskTests;
+			sourceTree = "<group>";
+		};
+		04585E061F56BE6700984D83 /* KisanHubTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04585E071F56BE6700984D83 /* KisanHubTaskUITests.swift */,
+				04585E091F56BE6700984D83 /* Info.plist */,
+			);
+			path = KisanHubTaskUITests;
+			sourceTree = "<group>";
+		};
+		04585E191F56C12400984D83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04585E1F1F56C3EC00984D83 /* Constant.swift */,
+				04585E1D1F56C13800984D83 /* Reachability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04585DE31F56BE6600984D83 /* KisanHubTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04585E0C1F56BE6700984D83 /* Build configuration list for PBXNativeTarget "KisanHubTask" */;
+			buildPhases = (
+				04585DE01F56BE6600984D83 /* Sources */,
+				04585DE11F56BE6600984D83 /* Frameworks */,
+				04585DE21F56BE6600984D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KisanHubTask;
+			productName = KisanHubTask;
+			productReference = 04585DE41F56BE6600984D83 /* KisanHubTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04585DF71F56BE6700984D83 /* KisanHubTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04585E0F1F56BE6700984D83 /* Build configuration list for PBXNativeTarget "KisanHubTaskTests" */;
+			buildPhases = (
+				04585DF41F56BE6700984D83 /* Sources */,
+				04585DF51F56BE6700984D83 /* Frameworks */,
+				04585DF61F56BE6700984D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04585DFA1F56BE6700984D83 /* PBXTargetDependency */,
+			);
+			name = KisanHubTaskTests;
+			productName = KisanHubTaskTests;
+			productReference = 04585DF81F56BE6700984D83 /* KisanHubTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04585E021F56BE6700984D83 /* KisanHubTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04585E121F56BE6700984D83 /* Build configuration list for PBXNativeTarget "KisanHubTaskUITests" */;
+			buildPhases = (
+				04585DFF1F56BE6700984D83 /* Sources */,
+				04585E001F56BE6700984D83 /* Frameworks */,
+				04585E011F56BE6700984D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04585E051F56BE6700984D83 /* PBXTargetDependency */,
+			);
+			name = KisanHubTaskUITests;
+			productName = KisanHubTaskUITests;
+			productReference = 04585E031F56BE6700984D83 /* KisanHubTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04585DDC1F56BE6600984D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AtulPrakash;
+				TargetAttributes = {
+					04585DE31F56BE6600984D83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 47P77YSAZ5;
+						ProvisioningStyle = Automatic;
+					};
+					04585DF71F56BE6700984D83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 47P77YSAZ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04585DE31F56BE6600984D83;
+					};
+					04585E021F56BE6700984D83 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 47P77YSAZ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04585DE31F56BE6600984D83;
+					};
+				};
+			};
+			buildConfigurationList = 04585DDF1F56BE6600984D83 /* Build configuration list for PBXProject "KisanHubTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04585DDB1F56BE6600984D83;
+			productRefGroup = 04585DE51F56BE6600984D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04585DE31F56BE6600984D83 /* KisanHubTask */,
+				04585DF71F56BE6700984D83 /* KisanHubTaskTests */,
+				04585E021F56BE6700984D83 /* KisanHubTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04585DE21F56BE6600984D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04585DF21F56BE6600984D83 /* LaunchScreen.storyboard in Resources */,
+				04585DEF1F56BE6600984D83 /* Assets.xcassets in Resources */,
+				04585DED1F56BE6600984D83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04585DF61F56BE6700984D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04585E011F56BE6700984D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04585DE01F56BE6600984D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04585DEA1F56BE6600984D83 /* ViewController.swift in Sources */,
+				04585DE81F56BE6600984D83 /* AppDelegate.swift in Sources */,
+				04585E201F56C3EC00984D83 /* Constant.swift in Sources */,
+				04585E1E1F56C13800984D83 /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04585DF41F56BE6700984D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04585DFD1F56BE6700984D83 /* KisanHubTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04585DFF1F56BE6700984D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04585E081F56BE6700984D83 /* KisanHubTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04585DFA1F56BE6700984D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04585DE31F56BE6600984D83 /* KisanHubTask */;
+			targetProxy = 04585DF91F56BE6700984D83 /* PBXContainerItemProxy */;
+		};
+		04585E051F56BE6700984D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04585DE31F56BE6600984D83 /* KisanHubTask */;
+			targetProxy = 04585E041F56BE6700984D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04585DEB1F56BE6600984D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04585DEC1F56BE6600984D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04585DF01F56BE6600984D83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04585DF11F56BE6600984D83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04585E0A1F56BE6700984D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04585E0B1F56BE6700984D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04585E0D1F56BE6700984D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47P77YSAZ5;
+				INFOPLIST_FILE = KisanHubTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AtulPrakash.KisanHubTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04585E0E1F56BE6700984D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47P77YSAZ5;
+				INFOPLIST_FILE = KisanHubTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AtulPrakash.KisanHubTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04585E101F56BE6700984D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47P77YSAZ5;
+				INFOPLIST_FILE = KisanHubTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AtulPrakash.KisanHubTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHubTask.app/KisanHubTask";
+			};
+			name = Debug;
+		};
+		04585E111F56BE6700984D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 47P77YSAZ5;
+				INFOPLIST_FILE = KisanHubTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AtulPrakash.KisanHubTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisanHubTask.app/KisanHubTask";
+			};
+			name = Release;
+		};
+		04585E131F56BE6700984D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 47P77YSAZ5;
+				INFOPLIST_FILE = KisanHubTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AtulPrakash.KisanHubTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KisanHubTask;
+			};
+			name = Debug;
+		};
+		04585E141F56BE6700984D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 47P77YSAZ5;
+				INFOPLIST_FILE = KisanHubTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AtulPrakash.KisanHubTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KisanHubTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04585DDF1F56BE6600984D83 /* Build configuration list for PBXProject "KisanHubTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04585E0A1F56BE6700984D83 /* Debug */,
+				04585E0B1F56BE6700984D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04585E0C1F56BE6700984D83 /* Build configuration list for PBXNativeTarget "KisanHubTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04585E0D1F56BE6700984D83 /* Debug */,
+				04585E0E1F56BE6700984D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04585E0F1F56BE6700984D83 /* Build configuration list for PBXNativeTarget "KisanHubTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04585E101F56BE6700984D83 /* Debug */,
+				04585E111F56BE6700984D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04585E121F56BE6700984D83 /* Build configuration list for PBXNativeTarget "KisanHubTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04585E131F56BE6700984D83 /* Debug */,
+				04585E141F56BE6700984D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04585DDC1F56BE6600984D83 /* Project object */;
+}
