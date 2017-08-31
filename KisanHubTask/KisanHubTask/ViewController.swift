@@ -29,10 +29,7 @@ class ViewController: UIViewController {
         }else{
             print("Not available")
         }
-        activityIndicator("Fetching...")
-        
-        self.addObserver(self, forKeyPath: "networkChanged", options: NSKeyValueObservingOptions(rawValue: 0), context: &kNetworkChanged)
-        
+        activityIndicator("Fetching...")        
     }
 
     //---------------------------------
@@ -315,23 +312,6 @@ class ViewController: UIViewController {
                 print("Queue Empty")
                 DispatchQueue.main.async {
                     self.effectView.removeFromSuperview()
-                }
-            }
-        }
-        
-        if keyPath == "networkChanged" && context == &kNetworkChanged{
-            if (Reachability.isConnectedToNetwork()){
-                
-            }else{
-                DispatchQueue.main.async {
-                    self.effectView.removeFromSuperview()
-                }
-                showNetworkAlert(title: "Oops", message: "Network connection lost, Please connect to network and run app again")
-                self.myQueue.cancelAllOperations()
-                if removeExistingCSVFile() {
-                    print("Successfully removed")
-                }else{
-                    print("Not available")
                 }
             }
         }
