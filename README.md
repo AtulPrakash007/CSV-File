@@ -1,8 +1,6 @@
 # CSV-File
 Parse the Metoffice.gov.uk url to get the weather data and store it in .csv format.
 
-Handled the Netowrk notification in this, If one want to use different Reachability approach, that also mentioned here
-
 BaseURL: http://www.metoffice.gov.uk/climate/uk/summaries/datasets#Yearorder
 In this url there were two types of data one is "Year ordered statistics" and other is "Rank ordered statistics".
 This is made for "Year ordered statistics".
